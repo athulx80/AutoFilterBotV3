@@ -28,16 +28,17 @@ Bot Owner Only
 """
 
 ABOUT = """
-➠ 𝙉𝙖𝙢𝙚 :  𝐌𝐄 𝘼𝙪𝙩𝙤 𝙁𝙞𝙡𝙩𝙚𝙧 𝙑𝟯
+Name :  Auto Filter Bot V3
     
-➠ 𝘾𝙧𝙚𝙖𝙩𝙤𝙧 : [𝘼𝙩𝙝𝙪𝙡](https://t.me/athulx80)
+Developer : [Athul](https://t.me/athulx80)
 
+Channel : [JOIN HERE](https://t.me/+L8SWfrF_7m04ODZl)
 
-➠ 𝙇𝙖𝙣𝙜𝙪𝙖𝙜𝙚 : 𝙋𝙮𝙩𝙝𝙤𝙣𝟯
+Language : Python3
 
-➠ 𝙇𝙞𝙗𝙧𝙖𝙧𝙮 : 𝙋𝙮𝙧𝙤𝙜𝙧𝙖𝙢 𝘼𝙨𝙮𝙣𝙘𝙞𝙤 𝟭.𝟭𝟯.𝟬
+Library : Pyrogram Asyncio 1.13.0
 
-➠ 𝙎𝙤𝙪𝙧𝙘𝙚 𝘾𝙤𝙙𝙚 : [𝘾𝙡𝙞𝙘𝙠 𝙃𝙚𝙧𝙚](https://github.com/athulx80/AutoFilterBotV3)
+Inline Bot  : [CLICK HERE](http://t.me/MoviesEmpire_AutoFilterV2_Bot)
 
-➠ 𝙈𝙖𝙞𝙣 𝘾𝙝𝙖𝙣𝙣𝙚𝙡 : @newallmoviesx
+Database : [MongoDB](https://www.mongodb.com/)
 """
