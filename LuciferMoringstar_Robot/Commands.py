@@ -49,10 +49,10 @@ async def start(bot, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("© 𝙅𝙤𝙞𝙣 𝙉𝙤𝙬 🍿" url=invite_link.https://t.me/newallmoviesx)
+                                InlineKeyboardButton("© JOIN NOW!" url=invite_link.invite_link.
                             ],
                             [
-                                InlineKeyboardButton("🔄 𝙏𝙧𝙮 𝘼𝙜𝙖𝙞𝙣", callback_data=f"checksub#{file_id}")
+                                InlineKeyboardButton("🔄 TRY AGAIN!", callback_data=f"checksub#{file_id}")
                             ]
                         ]
                     ),
@@ -84,7 +84,7 @@ async def start(bot, message):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('❤‍🔥 𝙅𝙤𝙞𝙣 𝙉𝙤𝙬 ❤‍🔥', url=f'{TUTORIAL}')
+                        InlineKeyboardButton('INLINE BOT', url=f'{TUTORIAL}')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -103,7 +103,7 @@ async def start(bot, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("© 𝙅𝙤𝙞𝙣 𝙉𝙤𝙬 🍿", url=invite_link.invite_link)
+                        InlineKeyboardButton("JOIN HERE!", url=invite_link.invite_link)
                     ]
                 ]
             )
@@ -117,8 +117,8 @@ async def start(bot, message):
                 [[
                 InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("HELP", callback_data="help"),
+                InlineKeyboardButton("ABOUT", callback_data="about")
                 ]]
             )
         )
@@ -331,7 +331,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             
-            InlineKeyboardButton('© 𝙅𝙤𝙞𝙣 𝙉𝙤𝙬 🍿', url=f'{TUTORIAL}')
+            InlineKeyboardButton('© JOIN NOW!', url=f'{TUTORIAL}')
         ]
         ]
     await message.reply(text=f"{ABOUT}", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
